@@ -1,4 +1,4 @@
-# Kerim's Test App on "B2B Payment Integration Proof of Concept"
+# Kerim's Test App on "B2B Payment Integration POC"
 
 ## Setup (development)
 
@@ -14,7 +14,7 @@ To run the application, you will need to have Node.js.
 
 ## Example of this app online
 
-To see an example of running app go [here](https://kerim-test-app.vercel.app/api/transaction)
+To see an example of running app go [here](https://test-demo-topaz.vercel.app)
 
 ## Usage
 
