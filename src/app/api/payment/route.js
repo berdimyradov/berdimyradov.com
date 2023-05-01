@@ -1,7 +1,17 @@
-import { createPayment } from "@/lib/payment/model";
+import { createPayment, getPayments } from "./model";
 
-export async function GET(request) {
-  return new Response("Hello, Next.js!");
+export async function GET() {
+  try {
+    const payments = await getPayments();
+
+    return new Response(JSON.stringify({ payments }), {
+      status: 200,
+      headers: { "content-type": "application/json" },
+    });
+  } catch (error) {
+    console.log("ERROR", error);
+    return new Response(error, { status: 500 });
+  }
 }
 
 export async function POST(request) {

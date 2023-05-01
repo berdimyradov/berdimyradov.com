@@ -10,7 +10,7 @@ const { MONGODB_URI } = process.env;
 const options = {};
 
 if (!MONGODB_URI) {
-  throw new Error("Please add you Mongo URI to .env.local file");
+  throw new Error("Please add MONGODB_URI to .env.local file");
 }
 
 if (process.env.NODE_ENV === "development") {

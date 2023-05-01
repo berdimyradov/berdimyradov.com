@@ -4,7 +4,7 @@ const collectionName = "payments";
 
 async function createPayment(payment) {
   const mongoClient = await clientPromise;
-  const db = mongoClient.db("payin-demo-db");
+  const db = mongoClient.db();
   const collection = db.collection(collectionName);
   const result = await collection.insertOne(payment);
   return result.insertedId;
@@ -12,7 +12,7 @@ async function createPayment(payment) {
 
 async function getPayments() {
   const mongoClient = await clientPromise;
-  const db = mongoClient.db("payin-demo-db");
+  const db = mongoClient.db();
   const collection = db.collection(collectionName);
   const payments = await collection
     .find({})
