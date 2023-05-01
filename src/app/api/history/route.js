@@ -9,6 +9,7 @@ export async function GET() {
       headers: { "content-type": "application/json" },
     });
   } catch (error) {
+    console.log("ERROR", error);
     return new Response(error, { status: 500 });
   }
 }

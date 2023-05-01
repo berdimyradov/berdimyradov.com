@@ -16,7 +16,7 @@ export const Navbar = () => {
             >
               <FaMoneyCheckAlt className="mr-2" />
               Payment
-            </Link>{" "}
+            </Link>
             <Link
               href="/history"
               className="flex items-center whitespace-nowrap text-base font-medium hover:text-white mx-4"

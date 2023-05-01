@@ -14,13 +14,13 @@ async function getPayments() {
   const mongoClient = await clientPromise;
   const db = mongoClient.db("payin-demo-db");
   const collection = db.collection(collectionName);
-  const transactions = await collection
+  const payments = await collection
     .find({})
     .project({})
     .sort({ _id: -1 })
     .limit(100)
     .toArray();
-  return transactions;
+  return payments;
 }
 
 export { createPayment, getPayments };

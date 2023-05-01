@@ -6,7 +6,7 @@ export default function Home() {
       <FaLink className="mr-2" />
       <a
         href="https://linktr.ee/berdimyradov"
-        class="text-blue-600 hover:text-blue-800 underline"
+        className="text-blue-600 hover:text-blue-800 underline"
       >
         Visit My Linktree
       </a>
