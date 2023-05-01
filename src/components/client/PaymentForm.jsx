@@ -1,16 +1,20 @@
 "use client";
 
 import { useState } from "react";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 export const PaymentForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [amount, setAmount] = useState(0);
+  const [isLoading, setIsLoading] = useState(false);
 
   const onSubmit = async (event) => {
     event.preventDefault();
 
     try {
+      setIsLoading(true);
+
       const response = await fetch("/api/payment", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -27,6 +31,8 @@ export const PaymentForm = () => {
       }
     } catch (error) {
       console.error(error);
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -86,8 +92,9 @@ export const PaymentForm = () => {
       <button
         className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
         type="submit"
+        disabled={isLoading}
       >
-        Submit
+        {isLoading ? <AiOutlineLoading3Quarters /> : "Submit"}
       </button>
     </form>
   );
