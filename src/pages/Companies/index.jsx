@@ -1,7 +1,7 @@
+import { getAllCompanies } from "@/entities/companies/lib/getAllCompanies";
 import { Card } from "@/shared/components/Card";
 import { SimpleLayout } from "@/shared/components/SimpleLayout";
 import { formatDate } from "@/shared/lib/formatDate";
-import { getAllCompanies } from "@/shared/lib/getAllCompanies";
 
 function Company({ company }) {
   return (
@@ -32,13 +32,8 @@ function Company({ company }) {
   );
 }
 
-export const metadata = {
-  title: "Companies",
-  description: "description",
-};
-
-export async function CompaniesPage() {
-  let companies = await getAllCompanies();
+export default function CompaniesPage() {
+  let companies = getAllCompanies();
 
   return (
     <SimpleLayout

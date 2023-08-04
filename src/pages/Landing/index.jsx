@@ -1,7 +1,8 @@
+import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
-import clsx from "clsx";
 
+import { getAllCompanies } from "@/entities/companies/lib/getAllCompanies";
 import { Button } from "@/shared/components/Button";
 import { Card } from "@/shared/components/Card";
 import { Container } from "@/shared/components/Container";
@@ -21,7 +22,6 @@ import image3 from "@/shared/images/photos/image-3.jpg";
 import image4 from "@/shared/images/photos/image-4.jpg";
 import image5 from "@/shared/images/photos/image-5.jpg";
 import { formatDate } from "@/shared/lib/formatDate";
-import { getAllCompanies } from "@/shared/lib/getAllCompanies";
 
 function MailIcon(props) {
   return (
@@ -250,8 +250,8 @@ function Photos() {
   );
 }
 
-export default async function LandingPage() {
-  let companies = (await getAllCompanies()).slice(0, 3);
+export default function LandingPage() {
+  let companies = getAllCompanies().slice(0, 3);
 
   return (
     <>

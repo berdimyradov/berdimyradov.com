@@ -57,12 +57,7 @@ function LinkIcon(props) {
   );
 }
 
-export const metadata = {
-  title: "Projects",
-  description: "Things I’ve made trying to put my dent in the universe.",
-};
-
-export function ProjectsPage() {
+export default function ProjectsPage() {
   return (
     <SimpleLayout
       title="Things I’ve made trying to put my dent in the universe."
