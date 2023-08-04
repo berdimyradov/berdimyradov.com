@@ -25,7 +25,6 @@ export function Footer() {
                 <NavLink href="/companies">Companies</NavLink>
                 <NavLink href="/projects">Projects</NavLink>
                 <NavLink href="/skills">Skills</NavLink>
-                <NavLink href="/book">Book</NavLink>
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
                 &copy; {new Date().getFullYear()} Kerim Berdimyradov. All rights

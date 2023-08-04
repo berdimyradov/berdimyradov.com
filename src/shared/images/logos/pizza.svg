@@ -1,0 +1,22 @@
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+       <circle cx="128" cy="128" r="128" stroke="#171717" stroke-width="3" fill="#67e8f9" />
+      <path
+        d=" M29,128 L200,60 L128,227 Q56,196, 29,128 Z"
+        fill="yellow"
+        stroke="black"
+        stroke-width="3"
+      />
+      <path
+        d=" M183,100 A15 15 0 1 0 171 128 M109,96 A15 15 0 0 1 75 110 M159,155 A15 15 0 1 0 146 186 Z"
+        fill="#AD2F3C"
+        stroke="black"
+        stroke-width="3"
+      />
+      <path
+        d=" M29,128 L58,116 Q80,180 141,197 L128,227 Q56,196, 29,128 Z"
+        fill="#F49B4A"
+        stroke="black"
+        stroke-width="3"
+      />
+       
+</svg>

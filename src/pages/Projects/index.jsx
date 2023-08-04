@@ -2,11 +2,11 @@ import Image from "next/image";
 
 import { Card } from "@/shared/components/Card";
 import { SimpleLayout } from "@/shared/components/SimpleLayout";
-import logoAnimaginary from "@/shared/images/logos/animaginary.svg";
-import logoCosmos from "@/shared/images/logos/cosmos.svg";
-import logoHelioStream from "@/shared/images/logos/helio-stream.svg";
-import logoOpenShuttle from "@/shared/images/logos/open-shuttle.svg";
-import logoPlanetaria from "@/shared/images/logos/planetaria.svg";
+import logoAnimaginary from "@/shared/images/logos/bargetir.jpeg";
+import logoCosmos from "@/shared/images/logos/book.svg";
+import logoHelioStream from "@/shared/images/logos/cv.svg";
+import logoOpenShuttle from "@/shared/images/logos/fsd.png";
+import logoPlanetaria from "@/shared/images/logos/pizza.svg";
 
 const projects = [
   {
@@ -73,8 +73,8 @@ export default function ProjectsPage() {
               <Image
                 src={project.logo}
                 alt=""
-                className="h-8 w-8"
-                unoptimized
+                className="rounded-full h-8 w-8"
+                // unoptimized
               />
             </div>
             <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">

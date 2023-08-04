@@ -7,6 +7,7 @@ import {
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
+  TelegramIcon,
   TwitterIcon,
 } from "@/shared/components/SocialIcons";
 import portraitImage from "@/shared/images/portrait.jpg";
@@ -39,7 +40,7 @@ function MailIcon(props) {
 export const metadata = {
   title: "About",
   description:
-    "I’m Kerim Berdimyradov. I live in New York City, where I design the future.",
+    "I’m Kerim Berdimyradov. I live in Mary, Turkmenistan, where I design the future.",
 };
 
 export default function About() {
@@ -58,8 +59,8 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            I’m Kerim Berdimyradov. I live in New York City, where I design the
-            future.
+            I’m Kerim Berdimyradov. I live in Mary, Turkmenistan, where I design
+            the future.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
@@ -92,8 +93,8 @@ export default function About() {
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink href="#" icon={TwitterIcon}>
-              Follow on Twitter
+            <SocialLink href="#" icon={TelegramIcon} className="mt-4">
+              Reach out on Telegram
             </SocialLink>
             <SocialLink href="#" icon={InstagramIcon} className="mt-4">
               Follow on Instagram
