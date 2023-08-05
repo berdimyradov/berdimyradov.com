@@ -1,41 +1,30 @@
-import clsx from "clsx";
-import Image from "next/image";
-import Link from "next/link";
-
 import { getAllCompanies } from "@/entities/companies/lib/getAllCompanies";
 import { Button } from "@/shared/components/Button";
 import { Card } from "@/shared/components/Card";
 import { Container } from "@/shared/components/Container";
-import {
-  ArrowDownIcon,
-  BriefcaseIcon,
-  BuildingIcon,
-  MailIcon,
-} from "@/shared/components/Icons";
+import { BuildingIcon, MailIcon } from "@/shared/components/Icons";
+import { ProjectsList } from "@/shared/components/ProjectsList";
 import {
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
   TelegramIcon,
 } from "@/shared/components/SocialIcons";
-// import logoAirbnb from "@/shared/images/logos/airbnb.svg";
-// import logoFacebook from "@/shared/images/logos/facebook.svg";
-// import logoPlanetaria from "@/shared/images/logos/planetaria.svg";
-// import logoStarbucks from "@/shared/images/logos/starbucks.svg";
-
-import logoAirbnb from "@/shared/images/logos/pizza.svg";
-import logoFacebook from "@/shared/images/logos/fsd.png";
-import logoPlanetaria from "@/shared/images/logos/bargetir.jpeg";
-import logoStarbucks from "@/shared/images/logos/cv.svg";
-import logoBook from "@/shared/images/logos/book.svg";
-import logoHarpoon from "@/shared/images/logos/pokeball.png";
-
 import image1 from "@/shared/images/photos/image-1.jpg";
 import image2 from "@/shared/images/photos/image-2.jpg";
 import image3 from "@/shared/images/photos/image-3.jpg";
 import image4 from "@/shared/images/photos/image-4.jpg";
 import image5 from "@/shared/images/photos/image-5.jpg";
 import { formatDate } from "@/shared/lib/formatDate";
+import clsx from "clsx";
+import Image from "next/image";
+import Link from "next/link";
+
+const TITLE = "Software designer, creator, and amateur actor.";
+// const SUB_TITLE =
+//   "Hello, world! I'm Kerim, a globetrotting software designer, entrepreneur, and a passionate amateur actor. Bridging the worlds of technology and the arts, I've been creating innovative solutions that empower people everywhere. While juggling lines and codes, I am on this exciting journey to make a meaningful impact. Join me as we weave together the threads of technology, empowerment, and creative expression!";
+const SUB_TITLE =
+  "Hello, world! I'm Kerim, an innovative software designer, spirited entrepreneur, and stage enthusiast. Balancing technology with artistry, I craft solutions that empower and inspire. Join my journey of code, creativity, and empowerment!";
 
 function Company({ company }) {
   return (
@@ -54,7 +43,7 @@ function Company({ company }) {
 
 function SocialLink({ icon: Icon, ...props }) {
   return (
-    <Link className="group -m-1 p-1" {...props}>
+    <Link className="group -m-1 p-1" {...props} target="_blank">
       <Icon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
     </Link>
   );
@@ -86,126 +75,6 @@ function Newsletter() {
         </Button>
       </div>
     </form>
-  );
-}
-
-function Resume() {
-  // bargetir
-  // Files: bargetir.jpg
-
-  // bargetir-chef
-  //Files: pizza.svg || bargetir-chef.png
-
-  // fn-rn-todo-app
-  // Files: f.png fsd.png
-
-  // book
-  // Files:
-
-  // cvms
-  // Files: cv-logo.png
-
-  // harpoon
-  // Files: pokeball.png
-
-  let resume = [
-    {
-      company: "BarGetir",
-      title: "lorem ipsum",
-      logo: logoPlanetaria,
-      start: "2019",
-      end: {
-        label: "Present",
-        dateTime: new Date().getFullYear(),
-      },
-    },
-    {
-      company: "BarGetir Cheff",
-      title: "lorem ipsum",
-      logo: logoAirbnb,
-      start: "2014",
-      end: "2019",
-    },
-    {
-      company: "FS-RN-Todo-app",
-      title: "lorem ipsum",
-      logo: logoFacebook,
-      start: "2011",
-      end: "2014",
-    },
-    {
-      company: "CVMS",
-      title: "lorem ipsum",
-      logo: logoStarbucks,
-      start: "2008",
-      end: "2011",
-    },
-    {
-      company: "Book",
-      title: "lorem ipsum",
-      logo: logoBook,
-      start: "2011",
-      end: "2014",
-    },
-    {
-      company: "Harpoon",
-      title: "lorem ipsum",
-      logo: logoHarpoon,
-      start: "2008",
-      end: "2011",
-    },
-  ];
-
-  return (
-    <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
-      <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-        <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Projects</span>
-      </h2>
-      <ol className="mt-6 space-y-4">
-        {resume.map((role, roleIndex) => (
-          <li key={roleIndex} className="flex gap-4">
-            <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-              <Image
-                src={role.logo}
-                alt=""
-                className="h-7 w-7 rounded-full"
-                // unoptimized
-              />
-            </div>
-            <dl className="flex flex-auto flex-wrap gap-x-2">
-              <dt className="sr-only">Company</dt>
-              <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-                {role.company}
-              </dd>
-              <dt className="sr-only">Role</dt>
-              <dd className="text-xs text-zinc-500 dark:text-zinc-400">
-                {role.title}
-              </dd>
-              <dt className="sr-only">Date</dt>
-              <dd
-                className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
-                aria-label={`${role.start.label ?? role.start} until ${
-                  role.end.label ?? role.end
-                }`}
-              >
-                <time dateTime={role.start.dateTime ?? role.start}>
-                  {role.start.label ?? role.start}
-                </time>{" "}
-                <span aria-hidden="true">—</span>{" "}
-                <time dateTime={role.end.dateTime ?? role.end}>
-                  {role.end.label ?? role.end}
-                </time>
-              </dd>
-            </dl>
-          </li>
-        ))}
-      </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download CV
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button>
-    </div>
   );
 }
 
@@ -250,13 +119,10 @@ export default function LandingPage() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, creator, and amateur actor.
+            {TITLE}
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Kerim, a software designer and entrepreneur based in Mary,
-            Turkmenistan. I’m the co-founder and CEO of Planetaria, where we
-            develop technologies that empower regular people to explore space on
-            their own terms.
+            {SUB_TITLE}
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -296,7 +162,7 @@ export default function LandingPage() {
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <Newsletter />
-            <Resume />
+            <ProjectsList />
           </div>
         </div>
       </Container>

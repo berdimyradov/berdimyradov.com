@@ -8,7 +8,6 @@ import {
   InstagramIcon,
   LinkedInIcon,
   TelegramIcon,
-  TwitterIcon,
 } from "@/shared/components/SocialIcons";
 import portraitImage from "@/shared/images/portrait.jpg";
 
@@ -18,6 +17,7 @@ function SocialLink({ className, href, children, icon: Icon }) {
       <Link
         href={href}
         className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
+        target="_blank"
       >
         <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" />
         <span className="ml-4">{children}</span>
@@ -59,50 +59,85 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            I’m Kerim Berdimyradov. I live in Mary, Turkmenistan, where I design
-            the future.
+            Behind the Codes: Meet Kerim Berdimyradov
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I’ve loved making things for as long as I can remember, and wrote
-              my first program when I was 6 years old, just two weeks after my
-              mom brought home the brand new Macintosh LC 550 that I taught
-              myself to type on.
+              Hello there! I'm Kerim, your potential collaborator on the road to
+              digital excellence. But before we delve into the world of codes,
+              let's add a touch of personality to our journey.
             </p>
             <p>
-              The only thing I loved more than computers as a kid was space.
-              When I was 8, I climbed the 40-foot oak tree at the back of our
-              yard while wearing my older sister’s motorcycle helmet, counted
-              down from three, and jumped — hoping the tree was tall enough that
-              with just a bit of momentum I’d be able to get to orbit.
+              As a software developer, I understand that the real power of
+              technology lies in its ability to connect, inspire, and stimulate
+              growth. But you know what else I believe in? The power of hobbies
+              and interests in shaping our perspectives and creativity.
             </p>
             <p>
-              I spent the next few summers indoors working on a rocket design,
-              while I recovered from the multiple surgeries it took to fix my
-              badly broken legs. It took nine iterations, but when I was 15 I
-              sent my dad’s Blackberry into orbit and was able to transmit a
-              photo back down to our family computer from space.
+              An amateur actor in my free time, I appreciate the art of
+              storytelling and believe that every software is a story told
+              through codes and algorithms. Much like a character in a play,
+              software should captivate its users, making them a part of its
+              narrative.
             </p>
             <p>
-              Today, I’m the founder of Planetaria, where we’re working on
-              civilian space suits and manned shuttle kits you can assemble at
-              home so that the next generation of kids really <em>can</em> make
-              it to orbit — from the comfort of their own backyards.
+              An avid sports enthusiast and a chess player, I understand the
+              importance of strategy and foresight. Much like a chess game,
+              creating software is about making calculated moves, thinking
+              several steps ahead, and strategically bringing together all the
+              elements to checkmate the challenges.
+            </p>
+            <p>
+              But what is a life full of codes and strategies without people,
+              right? I love socializing and interacting with people from diverse
+              backgrounds. These interactions provide me with insights into
+              different perspectives, helping me create software that caters to
+              various needs and bridges gaps.
+            </p>
+            <p>
+              So, why am I sharing all this with you? Because I want to bring
+              all these elements – the storytelling, strategic thinking, and the
+              perspective of diverse users – into the software I develop.
+              Whether it's an innovative app idea, a process you want to
+              streamline, or a groundbreaking digital project, I am ready to
+              join forces with you.
+            </p>
+            <p>
+              I invite you to embark on this journey with me, a journey where we
+              code, create, and connect. Let's build software that doesn't just
+              do a job, but tells a story, makes a strategy, and connects
+              people. Shall we start our adventure?
             </p>
           </div>
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink href="#" icon={TelegramIcon} className="mt-4">
+            <SocialLink
+              href="https://t.me/berdimyradov"
+              icon={TelegramIcon}
+              className="mt-4"
+            >
               Reach out on Telegram
             </SocialLink>
-            <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+            <SocialLink
+              href="https://instagram.com/kberdimyradov"
+              icon={InstagramIcon}
+              className="mt-4"
+            >
               Follow on Instagram
             </SocialLink>
-            <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+            <SocialLink
+              href="https://github.com/berdimyradov"
+              icon={GitHubIcon}
+              className="mt-4"
+            >
               Follow on GitHub
             </SocialLink>
-            <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+            <SocialLink
+              href="https://www.linkedin.com/in/berdimyradov/"
+              icon={LinkedInIcon}
+              className="mt-4"
+            >
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
