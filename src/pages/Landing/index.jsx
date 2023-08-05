@@ -159,6 +159,13 @@ export default function LandingPage() {
             {companies.map((company) => (
               <Company key={company.slug} company={company} />
             ))}
+            <Button
+              href="/companies"
+              variant="secondary"
+              className="group w-full -mt-4"
+            >
+              View all
+            </Button>
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <Newsletter />
