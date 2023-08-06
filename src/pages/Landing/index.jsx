@@ -53,8 +53,7 @@ function Newsletter() {
   return (
     <form
       action="/thank-you"
-      className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
-    >
+      className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <MailIcon className="h-6 w-6 flex-none" />
         <span className="ml-3">Stay up to date</span>
@@ -95,9 +94,8 @@ function Photos() {
             key={image.src}
             className={clsx(
               "relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl",
-              rotations[imageIndex % rotations.length]
-            )}
-          >
+              rotations[imageIndex % rotations.length],
+            )}>
             <Image
               src={image}
               alt=""
@@ -152,7 +150,7 @@ export default function LandingPage() {
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
-            <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100 -mb-4 mt-6">
+            <h2 className="-mb-4 mt-6 flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
               <BuildingIcon className="h-6 w-6 flex-none" />
               <span className="ml-3">Latest Companies</span>
             </h2>
@@ -162,8 +160,7 @@ export default function LandingPage() {
             <Button
               href="/companies"
               variant="secondary"
-              className="group w-full -mt-4"
-            >
+              className="group -mt-4 w-full">
               View all
             </Button>
           </div>

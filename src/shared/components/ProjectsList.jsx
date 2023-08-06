@@ -1,71 +1,11 @@
 "use client";
 
-import { Badge } from "@/shared/components/Badge";
+import { PROJECTS as projects } from "@/entities/projects/model/data";
 import { Button } from "@/shared/components/Button";
 import { ArrowDownIcon, BriefcaseIcon } from "@/shared/components/Icons";
-import logoBargetir from "@/shared/images/logos/bargetir.jpeg";
-import logoBook from "@/shared/images/logos/book.svg";
-import logoCv from "@/shared/images/logos/cv.svg";
-import logoFsd from "@/shared/images/logos/fsd.png";
-import logoPizza from "@/shared/images/logos/pizza.svg";
-import logoPokeball from "@/shared/images/logos/pokeball.png";
 import Image from "next/image";
 
 export function ProjectsList() {
-  let projects = [
-    {
-      title: "FS-RN-Todo-app",
-      desc: "To-dos? Done, with FSD",
-      logo: logoFsd,
-      start: "2011",
-      end: "2014",
-      status: <Badge title="Live" variant="success" />,
-    },
-    {
-      title: "CVMS",
-      desc: "Dynamic CVs, Dynamic Careers",
-      logo: logoCv,
-      start: "2008",
-      end: "2011",
-      status: <Badge title="Live" variant="success" />,
-    },
-    {
-      title: "Book",
-      desc: "Pages from My Life’s Book",
-      logo: logoBook,
-      start: "2011",
-      end: "2014",
-      status: <Badge title="Live" variant="success" />,
-    },
-    {
-      title: "Harpoon",
-      desc: "Catch Pokemon, Like a Pro",
-      logo: logoPokeball,
-      start: "2008",
-      end: "2011",
-      status: <Badge title="Live" variant="success" />,
-    },
-    {
-      title: "BarGetir",
-      desc: "Hungry? We've Got You Covered",
-      logo: logoBargetir,
-      start: "2019",
-      end: {
-        label: "Present",
-        dateTime: new Date().getFullYear(),
-      },
-      status: <Badge title="Down" />,
-    },
-    {
-      title: "BarGetir Cheff",
-      desc: "Boost Biz with Speedy Delivery",
-      logo: logoPizza,
-      start: "2014",
-      end: "2019",
-      status: <Badge title="Down" />,
-    },
-  ];
-
   return (
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
@@ -83,13 +23,13 @@ export function ProjectsList() {
                 // unoptimized
               />
             </div>
-            <dl className="grid w-full grid-cols-[1fr_80px] grid-rows-[22px_1fr] gap-x-2 items-center">
+            <dl className="grid w-full grid-cols-[1fr_80px] grid-rows-[22px_1fr] items-center gap-x-2">
               <dt className="sr-only">Project</dt>
               <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
                 {project.title}
               </dd>
               <dt className="sr-only">Status</dt>
-              <dd className="ml-auto text-xs text-zinc-400 dark:text-zinc-500 row-span-2">
+              <dd className="row-span-2 ml-auto text-xs text-zinc-400 dark:text-zinc-500">
                 {project.status}
               </dd>
               <dt className="sr-only">Project description</dt>
@@ -104,8 +44,7 @@ export function ProjectsList() {
         href="/CV_Berdimyradov-Kerim[FE].pdf"
         target="_blank"
         variant="secondary"
-        className="group mt-6 w-full"
-      >
+        className="group mt-6 w-full">
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>

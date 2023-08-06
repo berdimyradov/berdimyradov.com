@@ -7,7 +7,7 @@ import {
   AppleIcon,
   ArrowLeftIcon,
   ChevronUpIcon,
-  DevicePhoneMobileIcon,
+  // DevicePhoneMobileIcon,
   GlobeAtIcon,
   GooglePlayIcon,
 } from "@/shared/components/Icons";
