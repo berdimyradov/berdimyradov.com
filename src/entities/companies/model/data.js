@@ -9,7 +9,12 @@ export const COMPANIES = {
     projects: [
       {
         title: "Coople",
-        url: "https://www.coople.com/uk",
+        urls: {
+          web: "https://www.coople.com/uk",
+          google:
+            "https://play.google.com/store/apps/details?id=com.coople.android.worker",
+          apple: "https://apps.apple.com/gb/app/coople-jobs/id1389768131",
+        },
         env: [
           "TypeScript",
           "Angular.js",
@@ -44,7 +49,14 @@ export const COMPANIES = {
       {
         title: "E-Commerce Project",
         url: undefined,
-        env: ["Node.js, Express.js, TypeScript, Angular 4, Serverless, AWS"],
+        env: [
+          "Node.js",
+          "Express.js",
+          "TypeScript",
+          "Angular 4",
+          "Serverless",
+          "AWS",
+        ],
         role: "Full Stack developer",
         desc: "This project is an online store for selling homemade masks. The client could get acquainted with the goods that are available, place an order. The store contained a constructor that allowed you to create a custom mask",
         resps: [
@@ -94,7 +106,14 @@ export const COMPANIES = {
         title: "FilmMakers",
         url: undefined,
         env: [
-          "PHP 7.1, Zend Framework, PHPUnit, ElasticSearch, Redis, MySQL, Vagrant, Linux Ubuntu",
+          "PHP 7.1",
+          "Zend Framework",
+          "PHPUnit",
+          "ElasticSearch",
+          "Redis",
+          "MySQL",
+          "Vagrant",
+          "Linux Ubuntu",
         ],
         role: "Backend Developer",
         desc: "This project is a large database of actors in Germany.  The main functionality of this project is a search engine that allows film producers to efficiently find actors for their projects.",
@@ -110,7 +129,7 @@ export const COMPANIES = {
       {
         title: "MVP Prototyping Project",
         url: undefined,
-        env: ["TypeScript, Angular 2, Gulp.js, Node.js, WebSocket"],
+        env: ["TypeScript", "Angular 2", "Gulp.js", "Node.js", "WebSocket"],
         role: "Frontend Developer (Web)",
         desc: "This project was an MVP for an application that would monitor various indicators in a car, such as speed, tire pressure, engine temperature, etc.  Also it included such functionalities as a navigator, sound system control, etc.",
         resps: [
@@ -126,7 +145,13 @@ export const COMPANIES = {
         title: "Grape",
         url: undefined,
         env: [
-          "HTML/CSS/JS, jQuery, Bootstrap, Angular.js, Gulp.js, Twitter-API, Google-Maps API",
+          "HTML/CSS/JS",
+          "jQuery",
+          "Bootstrap",
+          "Angular.js",
+          "Gulp.js",
+          "Twitter-API",
+          "Google-Maps API",
         ],
         role: "Frontend Developer (Web)",
         desc: "Grape is a tool that allows you to create “hooks” that are integrated into the site. Further, using this hook, you can track the input traffic and monitor it through Grape",
@@ -145,11 +170,15 @@ export const COMPANIES = {
     title: "Fractal Ltd.",
     description:
       "Fractal is a pioneering company focused on enhancing financial processes for Web3 businesses, DAOs, and freelancers. With a goal to expedite payments, eliminate errors, and simplify bookkeeping, Fractal reshapes the way digital entities manage their billing and invoicing, thereby creating a more streamlined and error-free financial workflow.",
-    url: "https://app.getfractal.xyz/",
+    urls: {
+      web: "https://app.getfractal.xyz/",
+    },
     projects: [
       {
         title: "Fractal",
-        url: "https://app.getfractal.xyz/",
+        urls: {
+          web: "https://app.getfractal.xyz/",
+        },
         env: ["JavaScript", "React", "Tailwind", "Netlify"],
         role: "Frontend Developer (Web)",
         desc: "Fractal streamlines billing and invoicing for Web3 businesses, DAOs, and freelancers. Fractal helps to get paid faster, avoid payment errors and simplify your bookkeeping.",
@@ -169,7 +198,7 @@ export const COMPANIES = {
     title: "iSolutions",
     description:
       "iSolutions is an innovative startup with a mission to streamline the creative process within the photography industry. Its flagship product, WeHands, is a dedicated platform designed to connect photographers with professional retouchers. Through this platform, it's easier than ever for photographers to find the perfect retoucher for their project, collaborate effectively, and communicate seamlessly. WeHands serves as a comprehensive solution for bridging the gap between photography and post-production, ultimately elevating the quality of the final images.",
-    url: undefined,
+    urls: undefined,
     projects: [
       {
         title: "WeHands",
@@ -206,7 +235,12 @@ export const COMPANIES = {
     projects: [
       {
         title: "Magnet: Chat, Play & Flirt",
-        url: "https://play.google.com/store/apps/details?id=com.magnetappdate&gl=US",
+        urls: {
+          google:
+            "https://play.google.com/store/apps/details?id=com.magnetappdate&gl=US",
+          apple:
+            "https://apps.apple.com/cd/app/magnet-chat-play-flirt/id1590505409",
+        },
         env: [
           "JavaScript",
           "TypeScript",
@@ -222,12 +256,17 @@ export const COMPANIES = {
           "Releasing new versions to app stores",
           "Collecting and analyzing user-experience metrics",
           "Refactored and enhanced the web app for administrators",
-          "Releasing new version of administrators’ app",
+          "Releasing new version of administrators' app",
         ],
       },
       {
-        title: "BamBam: Live Random Video Cha",
-        url: "https://play.google.com/store/apps/details?id=chat.bambam.android&hl=ru&gl=US",
+        title: "BamBam: Live Random Video Chat",
+        urls: {
+          google:
+            "https://play.google.com/store/apps/details?id=chat.bambam.android&hl=ru&gl=US",
+          apple:
+            "https://apps.apple.com/us/app/bambam-live-video-call-chat/id1512562923",
+        },
         env: ["JavaScript", "TypeScript", "ReactNative", "Jenkins"],
         role: "Frontend Developer (Mobile)",
         desc: "Bam Bam believes everyone has the ability to connect and find friendship, when they can talk face-to-face. Eye contact is a powerful tool! We aim to break down barriers and bring strangers together from all over the world through online video chat. You never know who you’ll meet, what you might learn, or when you can teach someone something new! Our AI-based screening, verification and moderation system makes Bam Bam unique. We protect our community at all times, so you can enjoy meeting new people in a safe and exciting environment! Making us suitable for all nationalities and backgrounds. Come see why our platform has helped strangers make millions of connections in over 70 countries worldwide!",
@@ -242,7 +281,13 @@ export const COMPANIES = {
       },
       {
         title: "Dating.com",
-        url: "https://www.dating.com/",
+        urls: {
+          web: "https://www.dating.com/",
+          google:
+            "https://play.google.com/store/apps/details?id=com.dating.android",
+          apple:
+            "https://apps.apple.com/us/app/dating-com-meet-new-people/id945614824",
+        },
         env: ["JavaScript", "TypeScript", "React", "ReactNative", "Jenkins"],
         role: "Frontend Developer (Web + Mobile)",
         desc: "Dating.com is a dating platform designed for a wide range of users, regardless of gender, preferences and values",
