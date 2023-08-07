@@ -10,11 +10,11 @@ import {
   LinkedInIcon,
   TelegramIcon,
 } from "@/shared/components/SocialIcons";
-import image1 from "@/shared/images/photos/image-1.jpg";
-import image2 from "@/shared/images/photos/image-2.jpg";
-import image3 from "@/shared/images/photos/image-3.jpg";
-import image4 from "@/shared/images/photos/image-4.jpg";
-import image5 from "@/shared/images/photos/image-5.jpg";
+import image1 from "@/shared/images/photos/acting.jpeg";
+import image2 from "@/shared/images/photos/handshake.jpeg";
+import image3 from "@/shared/images/photos/homeoffice.jpeg";
+import image4 from "@/shared/images/photos/reading.jpeg";
+import image5 from "@/shared/images/photos/coding.jpeg";
 import { formatDate } from "@/shared/lib/formatDate";
 import clsx from "clsx";
 import Image from "next/image";
