@@ -11,7 +11,7 @@ export const PROJECTS = [
     title: "FS-RN-Todo-app",
     desc: "To-dos? Done, with FSD",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quam dolor deleniti. Animi quia veritatis nobis incidunt ex quasi labore, distinctio magni.",
+      "The FS-RN-Todo-app is a React Native Todo example using Feature Sliced Design, serving as a reference for developers building similar projects.",
     logo: logoFsd,
     start: "2011",
     end: "2014",
@@ -26,7 +26,7 @@ export const PROJECTS = [
     title: "CVMS",
     desc: "Dynamic CVs, Dynamic Careers",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quam dolor deleniti. Animi quia veritatis nobis incidunt ex quasi labore, distinctio magni.",
+      "A platform to manage CV data, allowing multiple views and representations of your resume.",
     logo: logoCv,
     start: "2008",
     end: "2011",
@@ -35,10 +35,10 @@ export const PROJECTS = [
     link: { href: "https://cvms.vercel.app", label: "cvms.vercel.app" },
   },
   {
-    title: "Book",
+    title: "AutoBio",
     desc: "Pages from My Life's Book",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quam dolor deleniti. Animi quia veritatis nobis incidunt ex quasi labore, distinctio magni.",
+      "An interactive site showcasing my career and skills through a digital book. Explore now!",
     logo: logoBook,
     start: "2011",
     end: "2014",
@@ -49,8 +49,7 @@ export const PROJECTS = [
   {
     title: "Harpoon",
     desc: "Catch Pokemon, Like a Pro",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quam dolor deleniti. Animi quia veritatis nobis incidunt ex quasi labore, distinctio magni.",
+    description: "Catch a Pokemon by learning about pull-requests and applying it in a real project.",
     logo: logoPokeball,
     start: "2008",
     end: "2011",
@@ -65,7 +64,7 @@ export const PROJECTS = [
     title: "BarGetir",
     desc: "Hungry? We've Got You Covered",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quam dolor deleniti. Animi quia veritatis nobis incidunt ex quasi labore, distinctio magni.",
+      "A delivery app specializing in swift and dependable service within Turkmenistan.",
     logo: logoBargetir,
     start: "2019",
     end: {
@@ -83,7 +82,7 @@ export const PROJECTS = [
     title: "BarGetir Cheff",
     desc: "Boost Biz with Speedy Delivery",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quam dolor deleniti. Animi quia veritatis nobis incidunt ex quasi labore, distinctio magni.",
+      "An app for businesses to streamline and manage product delivery to customers.",
     logo: logoPizza,
     start: "2014",
     end: "2019",
