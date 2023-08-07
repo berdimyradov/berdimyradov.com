@@ -19,7 +19,7 @@ export function ProjectsList() {
               <Image
                 src={project.logo}
                 alt=""
-                className="h-7 w-7 rounded-full"
+                className="h-7 w-7 rounded-full bg-zinc-100 dark:bg-zinc-900/50"
                 // unoptimized
               />
             </div>

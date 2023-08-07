@@ -49,7 +49,8 @@ export const PROJECTS = [
   {
     title: "Harpoon",
     desc: "Catch Pokemon, Like a Pro",
-    description: "Catch a Pokemon by learning about pull-requests and applying it in a real project.",
+    description:
+      "Catch a Pokemon by learning about pull-requests and applying it in a real project.",
     logo: logoPokeball,
     start: "2008",
     end: "2011",
