@@ -44,7 +44,7 @@ export const PROJECTS = [
     end: "2014",
     status: <Badge title="Live" variant="success" />,
     logo: logoBook,
-    link: { href: "https://www.berdimyradov.com", label: "berdimyradov.com" },
+    link: { href: "https://autobio-chi.vercel.app", label: "vercel.app" },
   },
   {
     title: "Harpoon",
