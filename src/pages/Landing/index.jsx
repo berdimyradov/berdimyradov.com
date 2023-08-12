@@ -8,13 +8,14 @@ import {
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
+  StackOverflowIcon,
   TelegramIcon,
 } from "@/shared/components/SocialIcons";
 import image1 from "@/shared/images/photos/acting.jpeg";
+import image5 from "@/shared/images/photos/coding.jpeg";
 import image2 from "@/shared/images/photos/handshake.jpeg";
 import image3 from "@/shared/images/photos/homeoffice.jpeg";
 import image4 from "@/shared/images/photos/reading.jpeg";
-import image5 from "@/shared/images/photos/coding.jpeg";
 import { formatDate } from "@/shared/lib/formatDate";
 import clsx from "clsx";
 import Image from "next/image";
@@ -142,6 +143,11 @@ export default function LandingPage() {
               href="https://www.linkedin.com/in/berdimyradov/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
+            />
+            <SocialLink
+              href="https://stackoverflow.com/users/7820970/kerim-berdimyradov"
+              aria-label="Follow on StackOverflow"
+              icon={StackOverflowIcon}
             />
           </div>
         </div>

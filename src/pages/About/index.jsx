@@ -7,6 +7,7 @@ import {
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
+  StackOverflowIcon,
   TelegramIcon,
 } from "@/shared/components/SocialIcons";
 import portraitImage from "@/shared/images/portrait.jpg";
@@ -17,8 +18,7 @@ function SocialLink({ className, href, children, icon: Icon }) {
       <Link
         href={href}
         className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
-        target="_blank"
-      >
+        target="_blank">
         <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" />
         <span className="ml-4">{children}</span>
       </Link>
@@ -115,36 +115,37 @@ export default function About() {
             <SocialLink
               href="https://t.me/berdimyradov"
               icon={TelegramIcon}
-              className="mt-4"
-            >
+              className="mt-4">
               Reach out on Telegram
             </SocialLink>
             <SocialLink
               href="https://instagram.com/kberdimyradov"
               icon={InstagramIcon}
-              className="mt-4"
-            >
+              className="mt-4">
               Follow on Instagram
             </SocialLink>
             <SocialLink
               href="https://github.com/berdimyradov"
               icon={GitHubIcon}
-              className="mt-4"
-            >
+              className="mt-4">
               Follow on GitHub
             </SocialLink>
             <SocialLink
               href="https://www.linkedin.com/in/berdimyradov/"
               icon={LinkedInIcon}
-              className="mt-4"
-            >
+              className="mt-4">
               Follow on LinkedIn
+            </SocialLink>
+            <SocialLink
+              href="https://stackoverflow.com/users/7820970/kerim-berdimyradov"
+              icon={StackOverflowIcon}
+              className="mt-4">
+              Follow on StackOverflow
             </SocialLink>
             <SocialLink
               href="mailto:kberdimyradov@gmail.com"
               icon={MailIcon}
-              className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
-            >
+              className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40">
               kberdimyradov@gmail.com
             </SocialLink>
           </ul>
