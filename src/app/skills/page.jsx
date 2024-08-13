@@ -5,6 +5,6 @@ export const metadata = {
   description: "Software I use, gadgets I love, and other things I recommend.",
 };
 
-export default function Home() {
+export default function () {
   return <SkillsPage />;
 }

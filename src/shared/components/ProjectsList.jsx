@@ -41,7 +41,7 @@ export function ProjectsList() {
         ))}
       </ol>
       <Button
-        href="/CV_Berdimyradov-Kerim[FE].pdf"
+        href="/cv"
         target="_blank"
         variant="secondary"
         className="group mt-6 w-full">

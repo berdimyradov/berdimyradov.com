@@ -1,5 +1,5 @@
 import AboutPage from "@/pages/About";
 
-export default function Home() {
+export default function () {
   return <AboutPage />;
 }

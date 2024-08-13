@@ -4,22 +4,15 @@ import { Card } from "@/shared/components/Card";
 import { Container } from "@/shared/components/Container";
 import { BuildingIcon, MailIcon } from "@/shared/components/Icons";
 import { ProjectsList } from "@/shared/components/ProjectsList";
-import {
-  GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  StackOverflowIcon,
-  TelegramIcon,
-} from "@/shared/components/SocialIcons";
 import image1 from "@/shared/images/photos/acting.jpeg";
 import image5 from "@/shared/images/photos/coding.jpeg";
 import image2 from "@/shared/images/photos/handshake.jpeg";
 import image3 from "@/shared/images/photos/homeoffice.jpeg";
 import image4 from "@/shared/images/photos/reading.jpeg";
 import { formatDate } from "@/shared/lib/formatDate";
+import { SocialLinks } from "@/widgets/SocialLinks";
 import clsx from "clsx";
 import Image from "next/image";
-import Link from "next/link";
 
 const TITLE = "Software designer, creator, and amateur actor.";
 // const SUB_TITLE =
@@ -39,14 +32,6 @@ function Company({ company }) {
       <Card.Description>{company.description}</Card.Description>
       <Card.Cta>View more</Card.Cta>
     </Card>
-  );
-}
-
-function SocialLink({ icon: Icon, ...props }) {
-  return (
-    <Link className="group -m-1 p-1" {...props} target="_blank">
-      <Icon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
-    </Link>
   );
 }
 
@@ -123,33 +108,7 @@ export default function LandingPage() {
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             {SUB_TITLE}
           </p>
-          <div className="mt-6 flex gap-6">
-            <SocialLink
-              href="https://t.me/berdimyradov"
-              aria-label="Reach out on Telegram"
-              icon={TelegramIcon}
-            />
-            <SocialLink
-              href="https://instagram.com/kberdimyradov"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
-            />
-            <SocialLink
-              href="https://github.com/berdimyradov"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />
-            <SocialLink
-              href="https://www.linkedin.com/in/berdimyradov/"
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
-            />
-            <SocialLink
-              href="https://stackoverflow.com/users/7820970/kerim-berdimyradov"
-              aria-label="Follow on StackOverflow"
-              icon={StackOverflowIcon}
-            />
-          </div>
+          <SocialLinks />
         </div>
       </Container>
       <Photos />

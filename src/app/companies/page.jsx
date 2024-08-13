@@ -5,6 +5,6 @@ export const metadata = {
   description: "description",
 };
 
-export default function Companies() {
+export default function () {
   return <CompaniesPage />;
 }
