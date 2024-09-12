@@ -1,3 +1,4 @@
+// NOTE: company-objects are sorted by `key` (e.g. name)
 export const COMPANIES = {
   ciklum: {
     date: "2018-09-01",
@@ -160,6 +161,35 @@ export const COMPANIES = {
           "Created reusable components",
           "Implemented business features",
           "Integrated client app with server side",
+        ],
+      },
+    ],
+  },
+  finstek: {
+    date: "2023-12-01",
+    exitDate: "2024-08-09",
+    title: "Finstek Limited",
+    description:
+      "Finstek is a leading technology provider focused on providing robust and ﬂexible technology solutions, ranging from comprehensive MT4/MT5 White Label solutions, cutting-edge MT4/MT5 Bridging, advanced order routing and execution, aggregation, risk management and warehousing solutions, reporting and other ﬁntech SAAS solutions for institutions operating in the ﬁnancial markets. Our team of highly skilled and experienced professionals are committed to offering the ﬁnest levels of service to complement our class leading market offering.",
+    url: "https://finstek.com/",
+    projects: [
+      {
+        title: "The Edge",
+        urls: {
+          google:
+            "https://play.google.com/store/apps/details?id=com.gmi.edge&hl=en-US",
+          apple:
+            "https://apps.apple.com/my/app/gmi-edge-trading-investing/id1615078277",
+        },
+        env: ["JavaScript", "TypeScript", "React", "ReactNative"],
+        role: "Senior ReactNative Developer",
+        desc: "The Edge is a cutting-edge trading platform designed to provide brokers with an advanced, zero-license fee solution for their trading needs. The Edge platform is tailored to meet the needs of brokers who want to distinguish themselves from traditional platforms by offering innovative, reliable, and efficient trading tools.",
+        resps: [
+          "Social Copying Feature Implementation: Developed and integrated the 'Social Copying' functionality within the Finstek Edge app, allowing users to replicate the trades of successful traders, enhancing the social trading experience.",
+          "Payment System Integration: Successfully integrated multiple Payment System Providers into the app, enabling a seamless and secure payment process for users across different regions.",
+          "Push Notifications Implementation: Researched and implemented a robust push notification system using Azure services, tailored for global markets and specifically optimized for the Chinese market, ensuring timely and reliable notifications.",
+          "Architectural Migration Leadership: Initiated and led the architectural migration of the app towards Feature Sliced Design, improving code modularity, scalability, and maintainability.",
+          "UI/UX Collaboration: Worked closely with UI/UX designers to effectively translate complex trading data and functionalities into a user-friendly and intuitive mobile interface, enhancing the overall user experience.",
         ],
       },
     ],
