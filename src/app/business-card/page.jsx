@@ -1,4 +1,4 @@
-import BusinessCardPage from "@/pages/BusinessCard";
+import BusinessCardPage from "@/screens/BusinessCard";
 
 export const metadata = {};
 

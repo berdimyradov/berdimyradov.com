@@ -31,9 +31,9 @@ export default function SkillsPage() {
       intro="I often receive inquiries about the tools and methodologies I utilize to construct software, maintain productivity, or engage in the creative process. Here's an extensive overview of my skill set, reflecting the expertise and approaches I employ in my professional journey.">
       <div className="space-y-20">
         {skills.map(({ section, tools }) => (
-          <ToolsSection title={section}>
+          <ToolsSection title={section} key={section}>
             {tools.map(({ tool, desc }) => (
-              <Tool title={tool}>{desc}</Tool>
+              <Tool title={tool} key={tool}>{desc}</Tool>
             ))}
           </ToolsSection>
         ))}

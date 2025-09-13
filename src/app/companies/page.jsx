@@ -1,4 +1,4 @@
-import CompaniesPage from "@/pages/Companies";
+import CompaniesPage from "@/screens/Companies";
 
 export const metadata = {
   title: "Companies",
