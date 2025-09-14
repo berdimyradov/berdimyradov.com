@@ -1,9 +1,10 @@
 "use client";
 
-import { PROJECTS as projects } from "@/entities/projects/model/data";
+import { PROJECT_LOGOS, PROJECTS as projects } from "@/entities/projects/model/data";
 import { Button } from "@/shared/components/Button";
 import { ArrowDownIcon, BriefcaseIcon } from "@/shared/components/Icons";
 import Image from "next/image";
+import { Badge } from "./Badge";
 
 export function ProjectsList() {
   return (
@@ -17,8 +18,10 @@ export function ProjectsList() {
           <li key={index} className="flex gap-4">
             <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
               <Image
-                src={project.logo}
+                src={PROJECT_LOGOS[project.id]}
                 alt=""
+                width={28}
+                height={28}
                 className="h-7 w-7 rounded-full bg-zinc-100 dark:bg-zinc-900/50"
                 // unoptimized
               />
@@ -30,7 +33,8 @@ export function ProjectsList() {
               </dd>
               <dt className="sr-only">Status</dt>
               <dd className="row-span-2 ml-auto text-xs text-zinc-400 dark:text-zinc-500">
-                {project.status}
+                {project.status === 'online' && <Badge title="Live" variant="success" />}
+                {project.status === 'offline' && <Badge title="Down" />}
               </dd>
               <dt className="sr-only">Project description</dt>
               <dd className="text-xs text-zinc-500 dark:text-zinc-400">

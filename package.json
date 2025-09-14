@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "fetch:data": "wget -O ./src/entities/data.json https://gist.githubusercontent.com/berdimyradov/8e953890bc7cb2dedbcd3704c0620a63/raw/0787af92ee79de0ef0feccaf2701f696a3341e1b/berdimyradov.json"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.8",

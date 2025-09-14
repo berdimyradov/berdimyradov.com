@@ -1,0 +1,659 @@
+{
+  "profile": {
+    "name": "Kerim Berdimyradov",
+    "title": "Senior Frontend Engineer & Lead",
+    "keywords": ["React", "React Native"],
+    "contacts": {
+      "linkedin": "https://linkedin.com/in/berdimyradov",
+      "email": "kberdimyradov@gmail.com",
+      "phone": "+375336168851",
+      "telegram": "https://t.me/berdimyradov",
+      "instagram": "https://instagram.com/kberdimyradov",
+      "gitHub": "https://github.com/berdimyradov",
+      "stackOverflow": "https://stackoverflow.com/users/7820970/kerim-berdimyradov"
+    }
+  },
+  "summary": [
+    "Extensive experience developing cross-platform mobile applications (React Native).",
+    "Excellent knowledge of frontend development (React, Redux, ES2015+, TypeScript, HTML5/CSS3).",
+    "Experience with backend development (Node.js, Express).",
+    "Advanced understanding of OOP concepts and design patterns.",
+    "Strong debugging, analysis, and problem-solving skills.",
+    "Collaborative team player with experience in teams of 2–30 people using varied methodologies.",
+    "Able to contribute in both team and individual development processes.",
+    "Startup launch experience.",
+    "Working knowledge of Linux/Ubuntu (Vim, Nginx).",
+    "DevOps skills (Docker, Jenkins, GitLab/Bitbucket Pipelines, Terraform)."
+  ],
+  "skills": [
+    {
+      "section": "Mobile Technologies",
+      "tools": [
+        {
+          "tool": "React Native",
+          "desc": "A popular framework for building native mobile apps using JavaScript and React."
+        },
+        {
+          "tool": "React Navigation",
+          "desc": "A routing and navigation library for React Native applications."
+        },
+        {
+          "tool": "App Store Connect",
+          "desc": "Apple's platform for managing and distributing iOS applications."
+        },
+        {
+          "tool": "Google Play Console",
+          "desc": "Google's platform for managing and distributing Android applications."
+        },
+        {
+          "tool": "Firebase",
+          "desc": "A comprehensive app development platform by Google, with analytics, databases, messaging, and more."
+        }
+      ]
+    },
+    {
+      "section": "Web Technologies",
+      "tools": [
+        {
+          "tool": "TypeScript",
+          "desc": "A superset of JavaScript adding static typing and other features."
+        },
+        {
+          "tool": "React",
+          "desc": "A JavaScript library for building user interfaces."
+        },
+        {
+          "tool": "Redux",
+          "desc": "A predictable state container for JavaScript applications."
+        },
+        {
+          "tool": "Node.js",
+          "desc": "A JavaScript runtime for building scalable network applications."
+        },
+        {
+          "tool": "WebSocket",
+          "desc": "A protocol providing full-duplex communication channels over a single TCP connection."
+        },
+        {
+          "tool": "NPM",
+          "desc": "A package manager for JavaScript, to manage modules and dependencies."
+        },
+        {
+          "tool": "Yarn",
+          "desc": "A fast, reliable, and secure package manager for JavaScript."
+        },
+        {
+          "tool": "Webpack",
+          "desc": "A module bundler used to bundle JavaScript files and additional resources."
+        }
+      ]
+    },
+    {
+      "section": "Version Control Systems",
+      "tools": [
+        {
+          "tool": "Git",
+          "desc": "A distributed version control system for tracking changes in source code."
+        },
+        {
+          "tool": "SVN",
+          "desc": "Apache Subversion, a centralized version control system."
+        },
+        {
+          "tool": "GitFlow",
+          "desc": "A branching model for Git, supporting the parallel development of features."
+        },
+        {
+          "tool": "TrunkBased",
+          "desc": "A source-control branching model, where developers work in short-lived branches or directly in trunk."
+        }
+      ]
+    },
+    {
+      "section": "DBMS",
+      "tools": [
+        {
+          "tool": "MySQL",
+          "desc": "An open-source relational database management system."
+        },
+        {
+          "tool": "MongoDB",
+          "desc": "A document-based distributed database designed for modern application development."
+        },
+        {
+          "tool": "DataGrip",
+          "desc": "A professional database management tool by JetBrains."
+        }
+      ]
+    },
+    {
+      "section": "IDEs & Editors",
+      "tools": [
+        {
+          "tool": "WebStorm",
+          "desc": "A professional JavaScript IDE by JetBrains, with support for modern frameworks."
+        },
+        {
+          "tool": "Visual Studio Code",
+          "desc": "A free source-code editor by Microsoft with support for debugging, syntax highlighting, and much more."
+        },
+        {
+          "tool": "NeoVim",
+          "desc": "An extension of Vim, aimed at improving extensibility and adding new features for efficient code editing"
+        }
+      ]
+    },
+    {
+      "section": "Software development methodologies",
+      "tools": [
+        {
+          "tool": "Jira",
+          "desc": "An agile project management tool supporting any agile methodology."
+        },
+        {
+          "tool": "Confluence",
+          "desc": "A collaboration tool for team collaboration and documentation."
+        },
+        {
+          "tool": "Trello",
+          "desc": "A Kanban-style project management app."
+        },
+        {
+          "tool": "Waterfall",
+          "desc": "A traditional sequential project management methodology."
+        },
+        {
+          "tool": "Agile",
+          "desc": "A methodology emphasizing iterative progress and collaboration."
+        },
+        {
+          "tool": "Kanban",
+          "desc": "A visual workflow management method."
+        },
+        {
+          "tool": "Scrum",
+          "desc": "An agile methodology for incremental and iterative project work."
+        }
+      ]
+    },
+    {
+      "section": "Other tools",
+      "tools": [
+        {
+          "tool": "Slack",
+          "desc": "A collaboration hub for teamwork, with channels, private groups, and direct messaging."
+        },
+        {
+          "tool": "Figma",
+          "desc": "A cloud-based design tool for collaborative interface design."
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "fsd",
+      "title": "FS-RN-Todo-app",
+      "desc": "To-dos? Done, with FSD",
+      "description": "The FS-RN-Todo-app is a React Native Todo example using Feature Sliced Design, serving as a reference for developers building similar projects.",
+      "start": "2011",
+      "end": "2014",
+      "status": "online",
+      "link": {
+        "href": "https://github.com/berdimyradov/fs-rn-todo-app",
+        "label": "github.com"
+      }
+    },
+    {
+      "id": "cvms",
+      "title": "CVMS",
+      "desc": "Dynamic CVs, Dynamic Careers",
+      "description": "A platform to manage CV data, allowing multiple views and representations of your resume.",
+      "start": "2008",
+      "end": "2011",
+      "status": "online",
+      "link": {
+        "href": "https://cvms.vercel.app",
+        "label": "cvms.vercel.app"
+      }
+    },
+    {
+      "id": "autoBio",
+      "title": "AutoBio",
+      "desc": "Pages from My Life's Book",
+      "description": "An interactive site showcasing my career and skills through a digital book. Explore now!",
+      "start": "2011",
+      "end": "2014",
+      "status": "online",
+      "link": {
+        "href": "https://autobio-chi.vercel.app",
+        "label": "vercel.app"
+      }
+    },
+    {
+      "id": "harpoon",
+      "title": "Harpoon",
+      "desc": "Catch Pokemon, Like a Pro",
+      "description": "Catch a Pokemon by learning about pull-requests and applying it in a real project.",
+      "start": "2008",
+      "end": "2011",
+      "status": "online",
+      "link": {
+        "href": "https://github.com/berdimyradov/harpoon",
+        "label": "github.com"
+      }
+    },
+    {
+      "id": "bargetir",
+      "title": "BarGetir",
+      "desc": "Hungry? We've Got You Covered",
+      "description": "A delivery app specializing in swift and dependable service within Turkmenistan.",
+      "start": "2019",
+      "end": {
+        "label": "Present",
+        "dateTime": 2025
+      },
+      "status": "offline",
+      "link": {
+        "href": "https://play.google.com/store/apps/details?id=com.bargetir",
+        "label": "play.google.com"
+      }
+    },
+    {
+      "id": "bg-cheff",
+      "title": "BarGetir Cheff",
+      "desc": "Boost Biz with Speedy Delivery",
+      "description": "An app for businesses to streamline and manage product delivery to customers.",
+      "start": "2014",
+      "end": "2019",
+      "status": "offline",
+      "link": {
+        "href": "https://play.google.com/store/apps/details?id=com.bargetir.chef",
+        "label": "play.google.com"
+      }
+    }
+  ],
+  "companies": {
+    "ciklum": {
+      "date": "2018-09-01",
+      "exitDate": "2020-03-01",
+      "title": "Ciklum",
+      "description": "Ciklum is an international software development and IT outsourcing company founded in Denmark in 2002. It is headquartered in London, United Kingdom. The company has software development centers and branch offices in the United Kingdom, United States, United Arab Emirates, Spain, Switzerland, Denmark, Israel, Poland, Ukraine, and Pakistan.",
+      "url": "https://www.ciklum.com",
+      "projects": [
+        {
+          "title": "Coople",
+          "urls": {
+            "web": "https://www.coople.com/uk",
+            "google": "https://play.google.com/store/apps/details?id=com.coople.android.worker",
+            "apple": "https://apps.apple.com/gb/app/coople-jobs/id1389768131"
+          },
+          "env": [
+            "TypeScript",
+            "Angular.js",
+            "Angular",
+            "Google Maps API",
+            "Vue.js",
+            "Nuxt.js",
+            "Jenkins",
+            "AWS",
+            "Terraform",
+            "Docker"
+          ],
+          "role": "Frontend Developer (Web)",
+          "desc": "Coople is a “Jobs on-demand” platform, connecting companies with people looking for flexible work. Coople helps recruits with vetting process before getting into online marketplace. Businesses have access to a huge pool of temporary, external workers, find staff and hire the right candidates  as needed.",
+          "resps": [
+            "Implemented and supported business features in client app",
+            "Participated in breaking down monolithic app into microservices",
+            "Helped updating a delivery system",
+            "Managed and lead a small team with a microservice"
+          ]
+        }
+      ]
+    },
+    "elinext": {
+      "date": "2016-06-01",
+      "exitDate": "2018-09-01",
+      "title": "Elinext",
+      "description": "Founded in 1997, Elinext is an alliance of companies with international offices in the USA, Germany, France, Ireland, Singapore and Hong Kong and delivery centers in Poland, Georgia, Kazakhstan, Vietnam, and Uzbekistan.",
+      "url": "https://www.elinext.com",
+      "projects": [
+        {
+          "title": "E-Commerce Project",
+          "url": null,
+          "env": [
+            "Node.js",
+            "Express.js",
+            "TypeScript",
+            "Angular 4",
+            "Serverless",
+            "AWS"
+          ],
+          "role": "Full Stack developer",
+          "desc": "This project is an online store for selling homemade masks. The client could get acquainted with the goods that are available, place an order. The store contained a constructor that allowed you to create a custom mask",
+          "resps": [
+            "Implemented and supported business features in client app",
+            "Implemented and supported business features in server app",
+            "Setted up a delivery system for an app"
+          ]
+        },
+        {
+          "title": "BlueBamboo",
+          "url": "",
+          "env": [
+            "PHP",
+            "Phalcon Framework",
+            "TypeScript",
+            "Angular 4",
+            "Ionic",
+            "AWS"
+          ],
+          "role": "Full Stack Developer",
+          "desc": "Corporate platform designed for internal communication and workflow",
+          "resps": [
+            "Implemented and supported business features in client app",
+            "Implemented and supported business features in server app",
+            "Built a POC of mobile application",
+            "Setted up a delivery system for an app"
+          ]
+        },
+        {
+          "title": "Elado - easiER AG",
+          "url": "https://www.northdata.com/easiER+AG,+Zürich/CHE-282.747.690",
+          "env": ["TypeScript", "Angular 4", "Node.js", "Express.js"],
+          "role": "Full Stack Developer",
+          "desc": "This project is a survey taking module of a wider system in a private clinic. Questioned has an opportunity to view the presentation of the human body and to point out the parts of the body that he has problems with.",
+          "resps": [
+            "Experienced in breaking user-stories into tickets, estimating and assigning",
+            "Implementing a MVP of a client application",
+            "Mocked a server app",
+            "Integrated a client app with server app via REST-api",
+            "Testing and deploying a client app",
+            "Setted up a delivery system for an app",
+            "Fixed bugs ",
+            "Implemented new features"
+          ]
+        },
+        {
+          "title": "FilmMakers",
+          "url": null,
+          "env": [
+            "PHP 7.1",
+            "Zend Framework",
+            "PHPUnit",
+            "ElasticSearch",
+            "Redis",
+            "MySQL",
+            "Vagrant",
+            "Linux Ubuntu"
+          ],
+          "role": "Backend Developer",
+          "desc": "This project is a large database of actors in Germany.  The main functionality of this project is a search engine that allows film producers to efficiently find actors for their projects.",
+          "resps": [
+            "Implemented code generators",
+            "Aggregating data from DB and storing in ElasticSearch",
+            "Implementing and providing search mechanism via ElasticSearch",
+            "Writing unit tests and testing the system",
+            "Communicated with customer for planning tasks",
+            "Supported product"
+          ]
+        },
+        {
+          "title": "MVP Prototyping Project",
+          "url": null,
+          "env": ["TypeScript", "Angular 2", "Gulp.js", "Node.js", "WebSocket"],
+          "role": "Frontend Developer (Web)",
+          "desc": "This project was an MVP for an application that would monitor various indicators in a car, such as speed, tire pressure, engine temperature, etc.  Also it included such functionalities as a navigator, sound system control, etc.",
+          "resps": [
+            "Creating a client app from beginning",
+            "Helped to design MVP",
+            "Integrated client app with server via WebSocket",
+            "Mocked a server app",
+            "Communicated with customer to identify requirements",
+            "Supported product"
+          ]
+        },
+        {
+          "title": "Grape",
+          "url": null,
+          "env": [
+            "HTML/CSS/JS",
+            "jQuery",
+            "Bootstrap",
+            "Angular.js",
+            "Gulp.js",
+            "Twitter-API",
+            "Google-Maps API"
+          ],
+          "role": "Frontend Developer (Web)",
+          "desc": "Grape is a tool that allows you to create “hooks” that are integrated into the site. Further, using this hook, you can track the input traffic and monitor it through Grape",
+          "resps": [
+            "Created web pages",
+            "Created reusable components",
+            "Implemented business features",
+            "Integrated client app with server side"
+          ]
+        }
+      ]
+    },
+    "esas": {
+      "date": "2024-08-26",
+      "exitDate": "2025-11-03",
+      "title": "Electronic Systems and Services",
+      "description": "Electronic Systems and Services (ESAS) is a Minsk-based software company (founded 2010) focused on fintech/payments and AI solutions. ESAS builds ERIP/E-POS payment gateways, e-invoicing/bill presentment and other data-heavy platforms, and has projects in face recognition and scoring.",
+      "url": "https://www.esas.by",
+      "projects": [
+        {
+          "title": "TwinFaces",
+          "url": "https://github.com/alcosi/twinfaces",
+          "env": [
+            "TypeScript",
+            "Next.js",
+            "React",
+            "Tailwind CSS",
+            "GitHub Actions"
+          ],
+          "role": "Frontend Team Lead",
+          "desc": "A Next.js/TypeScript multi-app frontend platform and shared component system for admin and customer-facing interfaces, optimized for fast releases and strong DX.",
+          "resps": [
+            "Owned frontend architecture (monorepo with shared UI kit, Feature-Sliced-style modules).",
+            "Set up CI/CD: build/test, Docker images, tagged releases via GitHub Actions.",
+            "Implemented env-specific routing/basePath and runtime config injection for multi-tenant builds.",
+            "Established design tokens and theming with Tailwind; integrated i18n.",
+            "Led code reviews, PR standards, and documentation for onboarding."
+          ]
+        },
+        {
+          "title": "On Shelves",
+          "url": "https://onshelves.eu/",
+          "env": [
+            "TypeScript",
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "GitLab Pipelines"
+          ],
+          "role": "Frontend Team Lead",
+          "desc": "AI-assisted multi-marketplace management tool: centralized product/catalog management, sales analytics, and marketplace sync (e.g., Amazon/eBay/Allegro) in one interface.",
+          "resps": [
+            "Delivered MVP UI and analytics views.",
+            "Created component library and robust forms.",
+            "Aligned API contracts; pagination and filters.",
+            "Added preview deployments and linting/formatting."
+          ]
+        },
+        {
+          "title": "Frontend Department Lead",
+          "url": null,
+          "env": [],
+          "role": "Frontend Department Lead",
+          "desc": "Practice leadership across frontend teams and products.",
+          "resps": [
+            "Hiring, mentoring, and growth plans for engineers.",
+            "Set coding standards, review guidelines, and branching/release strategy (SemVer).",
+            "CI quality gates (dev, tests, staging, prod, coverage, Lighthouse).",
+            "Owned shared design system and docs.",
+            "Cross-team planning and risk management."
+          ]
+        }
+      ]
+    },
+    "finstek": {
+      "date": "2023-12-01",
+      "exitDate": "2024-08-09",
+      "title": "Finstek Limited",
+      "description": "Finstek is a leading technology provider focused on providing robust and ﬂexible technology solutions, ranging from comprehensive MT4/MT5 White Label solutions, cutting-edge MT4/MT5 Bridging, advanced order routing and execution, aggregation, risk management and warehousing solutions, reporting and other ﬁntech SAAS solutions for institutions operating in the ﬁnancial markets. Our team of highly skilled and experienced professionals are committed to offering the ﬁnest levels of service to complement our class leading market offering.",
+      "url": "https://finstek.com/",
+      "projects": [
+        {
+          "title": "The Edge",
+          "urls": {
+            "google": "https://play.google.com/store/apps/details?id=com.gmi.edge&hl=en-US",
+            "apple": "https://apps.apple.com/my/app/gmi-edge-trading-investing/id1615078277"
+          },
+          "env": ["JavaScript", "TypeScript", "React", "ReactNative"],
+          "role": "Senior ReactNative Developer",
+          "desc": "The Edge is a cutting-edge trading platform designed to provide brokers with an advanced, zero-license fee solution for their trading needs. The Edge platform is tailored to meet the needs of brokers who want to distinguish themselves from traditional platforms by offering innovative, reliable, and efficient trading tools.",
+          "resps": [
+            "Social Copying Feature Implementation: Developed and integrated the 'Social Copying' functionality within the Finstek Edge app, allowing users to replicate the trades of successful traders, enhancing the social trading experience.",
+            "Payment System Integration: Successfully integrated multiple Payment System Providers into the app, enabling a seamless and secure payment process for users across different regions.",
+            "Push Notifications Implementation: Researched and implemented a robust push notification system using Azure services, tailored for global markets and specifically optimized for the Chinese market, ensuring timely and reliable notifications.",
+            "Architectural Migration Leadership: Initiated and led the architectural migration of the app towards Feature Sliced Design, improving code modularity, scalability, and maintainability.",
+            "UI/UX Collaboration: Worked closely with UI/UX designers to effectively translate complex trading data and functionalities into a user-friendly and intuitive mobile interface, enhancing the overall user experience."
+          ]
+        }
+      ]
+    },
+    "fractal": {
+      "date": "2023-04-01",
+      "exitDate": "2023-08-01",
+      "title": "Fractal Ltd.",
+      "description": "Fractal is a pioneering company focused on enhancing financial processes for Web3 businesses, DAOs, and freelancers. With a goal to expedite payments, eliminate errors, and simplify bookkeeping, Fractal reshapes the way digital entities manage their billing and invoicing, thereby creating a more streamlined and error-free financial workflow.",
+      "urls": {
+        "web": "https://app.getfractal.xyz/"
+      },
+      "projects": [
+        {
+          "title": "Fractal",
+          "urls": {
+            "web": "https://app.getfractal.xyz/"
+          },
+          "env": ["JavaScript", "React", "Tailwind", "Netlify"],
+          "role": "Frontend Developer (Web)",
+          "desc": "Fractal streamlines billing and invoicing for Web3 businesses, DAOs, and freelancers. Fractal helps to get paid faster, avoid payment errors and simplify your bookkeeping.",
+          "resps": [
+            "Built a web application from scratch, taking responsibility for its development and overseeing the entire project lifecycle.  Successfully set up the project's structure, ensuring an organized and scalable codebase.",
+            "Developed and implemented a comprehensive design system, ensuring consistency and efficiency throughout the application.",
+            "Integrated an OAuth login service, enhancing user authentication and security.",
+            "Managed deploy processes, ensuring smooth and efficient deployment of the application to production environments.",
+            "Served as a lead for a team of 3 individuals, providing guidance, overseeing tasks, and fostering collaboration to achieve project goals."
+          ]
+        }
+      ]
+    },
+    "isolutions": {
+      "date": "2015-09-01",
+      "exitDate": "2016-06-01",
+      "title": "iSolutions",
+      "description": "iSolutions is an innovative startup with a mission to streamline the creative process within the photography industry. Its flagship product, WeHands, is a dedicated platform designed to connect photographers with professional retouchers. Through this platform, it's easier than ever for photographers to find the perfect retoucher for their project, collaborate effectively, and communicate seamlessly. WeHands serves as a comprehensive solution for bridging the gap between photography and post-production, ultimately elevating the quality of the final images.",
+      "urls": null,
+      "projects": [
+        {
+          "title": "WeHands",
+          "url": null,
+          "env": [
+            "PHP",
+            "Symfony-PHP",
+            "Doctrine ORM",
+            "Angular.js",
+            "JavaScript",
+            "jQuery",
+            "Bootstrap",
+            "MySQL",
+            "Apache",
+            "Debian OS"
+          ],
+          "role": "Full Stack Developer",
+          "desc": "WeHand is a platform designed to connect photographers with retouchers. Photographers can post their work and describe their requirements to retouchers.  Further in the marketplace, retouchers have the opportunity to apply for photo processing.",
+          "resps": [
+            "Created web pages",
+            "Implemented business logic",
+            "Got experience of working in team"
+          ]
+        }
+      ]
+    },
+    "social-discovery": {
+      "date": "2020-03-01",
+      "exitDate": "2022-08-01",
+      "title": "Social Discovery Group",
+      "description": "Social Discovery Group is the world's leading conglomerate of social discovery companies. It brings together over 40 brands, an investment fund, and a venture studio. The company's products enjoy the patronage of more than 180 million users across 100 countries worldwide. The company is dedicated to addressing the issues of loneliness, isolation, and disconnection by leveraging the power of digital reality.",
+      "url": "https://sdventures.com",
+      "projects": [
+        {
+          "title": "Magnet: Chat, Play & Flirt",
+          "urls": {
+            "google": "https://play.google.com/store/apps/details?id=com.magnetappdate&gl=US",
+            "apple": "https://apps.apple.com/cd/app/magnet-chat-play-flirt/id1590505409"
+          },
+          "env": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "ReactNative",
+            "Jenkins",
+            "GitLab Pipelines"
+          ],
+          "role": "Frontend Developer (Web + Mobile)",
+          "desc": "Magnet is an app for dating. During the registration process, Magnet generates a virtual avatar for each account holder that is hidden from other accounts. The photos of users are not visible until they are matched",
+          "resps": [
+            "Implemented and supported business features in client app",
+            "Releasing new versions to app stores",
+            "Collecting and analyzing user-experience metrics",
+            "Refactored and enhanced the web app for administrators",
+            "Releasing new version of administrators' app"
+          ]
+        },
+        {
+          "title": "BamBam: Live Random Video Chat",
+          "urls": {
+            "google": "https://play.google.com/store/apps/details?id=chat.bambam.android&hl=ru&gl=US",
+            "apple": "https://apps.apple.com/us/app/bambam-live-video-call-chat/id1512562923"
+          },
+          "env": ["JavaScript", "TypeScript", "ReactNative", "Jenkins"],
+          "role": "Frontend Developer (Mobile)",
+          "desc": "Bam Bam believes everyone has the ability to connect and find friendship, when they can talk face-to-face. Eye contact is a powerful tool! We aim to break down barriers and bring strangers together from all over the world through online video chat. You never know who you’ll meet, what you might learn, or when you can teach someone something new! Our AI-based screening, verification and moderation system makes Bam Bam unique. We protect our community at all times, so you can enjoy meeting new people in a safe and exciting environment! Making us suitable for all nationalities and backgrounds. Come see why our platform has helped strangers make millions of connections in over 70 countries worldwide!",
+          "resps": [
+            "Implemented and supported business features in client app",
+            "Investigated and implemented video calls feature",
+            "Helped to improved retention by engaging users via call notifications",
+            "Investigated and implemented Voip-call features for iOS app",
+            "Releasing new versions to app stores",
+            "Debugged and fixed legacy code of core"
+          ]
+        },
+        {
+          "title": "Dating.com",
+          "urls": {
+            "web": "https://www.dating.com/",
+            "google": "https://play.google.com/store/apps/details?id=com.dating.android",
+            "apple": "https://apps.apple.com/us/app/dating-com-meet-new-people/id945614824"
+          },
+          "env": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "ReactNative",
+            "Jenkins"
+          ],
+          "role": "Frontend Developer (Web + Mobile)",
+          "desc": "Dating.com is a dating platform designed for a wide range of users, regardless of gender, preferences and values",
+          "resps": [
+            "Implemented and supported business features in client apps",
+            "Refactored project to be able launching multiple look-a-like apps"
+          ]
+        }
+      ]
+    }
+  }
+}

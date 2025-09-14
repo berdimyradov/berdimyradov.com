@@ -1,8 +1,8 @@
-import Image from "next/image";
-
+import { PROJECT_LOGOS, PROJECTS as projects } from "@/entities/projects/model/data";
+import { Badge } from "@/shared/components/Badge";
 import { Card } from "@/shared/components/Card";
 import { SimpleLayout } from "@/shared/components/SimpleLayout";
-import { PROJECTS as projects } from "@/entities/projects/model/data";
+import Image from "next/image";
 
 function LinkIcon(props) {
   return (
@@ -28,13 +28,16 @@ export default function ProjectsPage() {
             <div className="relative z-10 flex w-full items-center justify-between">
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                 <Image
-                  src={project.logo}
+                  src={PROJECT_LOGOS[project.id]}
                   alt=""
+                  width={32}
+                  height={32}
                   className="h-8 w-8 rounded-full bg-zinc-100 dark:bg-zinc-900/50"
                   // unoptimized
                 />
               </div>
-              {project.status}
+                {project.status === 'online' && <Badge title="Live" variant="success" />}
+                {project.status === 'offline' && <Badge title="Down" />}
             </div>
             <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
               <Card.Link href={project.link.href}>{project.title}</Card.Link>

@@ -48,7 +48,7 @@ function CompanyProject({ project }) {
 
       <div className="col-span-3 my-1.5 flex w-full flex-wrap gap-2">
         {project.env.map((e) => (
-          <Badge title={e} />
+          <Badge key={e} title={e} />
         ))}
       </div>
 
@@ -141,7 +141,7 @@ export function CompanyLayout({ children, company, isRssFeed = false }) {
             <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
               <div className="mt-8 flex max-w-3xl flex-col gap-y-8 divide-y divide-zinc-100 dark:divide-zinc-700/40">
                 {company.projects.map((project) => (
-                  <CompanyProject project={project} />
+                  <CompanyProject key={project.title} project={project} />
                 ))}
               </div>
             </div>
