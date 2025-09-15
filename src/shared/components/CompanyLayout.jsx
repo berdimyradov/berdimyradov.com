@@ -74,7 +74,7 @@ function CompanyProject({ project }) {
                   // className="mt-0.5 divide-y divide-zinc-100 dark:divide-zinc-700/40"
                 >
                   {project.resps.map((resp) => (
-                    <li className="flex items-center justify-between py-1.5 pl-1.5 text-sm leading-6">
+                    <li key={resp} className="flex items-center justify-between py-1.5 pl-1.5 text-sm leading-6">
                       <div className="flex w-0 flex-1 items-center">
                         <div className="ml-4 flex min-w-0 flex-1">
                           <span className="truncate">{resp}</span>

@@ -1,7 +1,4 @@
-import Image from "next/image";
-import Link from "next/link";
-import clsx from "clsx";
-
+import DB from "@/entities/db.json";
 import { Container } from "@/shared/components/Container";
 import {
   GitHubIcon,
@@ -11,6 +8,9 @@ import {
   TelegramIcon,
 } from "@/shared/components/SocialIcons";
 import portraitImage from "@/shared/images/portrait.jpg";
+import clsx from "clsx";
+import Image from "next/image";
+import Link from "next/link";
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -113,31 +113,31 @@ export default function About() {
         <div className="lg:pl-20">
           <ul role="list">
             <SocialLink
-              href="https://t.me/berdimyradov"
+              href={DB.profile.contacts.telegram}
               icon={TelegramIcon}
               className="mt-4">
               Reach out on Telegram
             </SocialLink>
             <SocialLink
-              href="https://instagram.com/kberdimyradov"
+              href={DB.profile.contacts.instagram}
               icon={InstagramIcon}
               className="mt-4">
               Follow on Instagram
             </SocialLink>
             <SocialLink
-              href="https://github.com/berdimyradov"
+              href={DB.profile.contacts.gitHub}
               icon={GitHubIcon}
               className="mt-4">
               Follow on GitHub
             </SocialLink>
             <SocialLink
-              href="https://www.linkedin.com/in/berdimyradov/"
+              href={DB.profile.contacts.linkedIn}
               icon={LinkedInIcon}
               className="mt-4">
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
-              href="https://stackoverflow.com/users/7820970/kerim-berdimyradov"
+              href={DB.profile.contacts.stackOverflow}
               icon={StackOverflowIcon}
               className="mt-4">
               Follow on StackOverflow

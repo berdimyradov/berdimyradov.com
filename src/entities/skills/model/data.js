@@ -1,3 +1,3 @@
-import DATA from '@/entities/data.json';
+import DB from '@/entities/db.json';
 
-export const SKILLS = DATA.skills;
+export const SKILLS = DB.skills;

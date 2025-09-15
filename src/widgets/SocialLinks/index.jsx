@@ -1,3 +1,4 @@
+import DB from "@/entities/db.json";
 import {
   GitHubIcon,
   InstagramIcon,
@@ -19,27 +20,27 @@ export const SocialLinks = () => {
   return (
     <div className="mt-6 flex gap-6">
       <SocialLink
-        href="https://t.me/berdimyradov"
+        href={DB.profile.contacts.telegram}
         aria-label="Reach out on Telegram"
         icon={TelegramIcon}
       />
       <SocialLink
-        href="https://instagram.com/kberdimyradov"
+        href={DB.profile.contacts.instagram}
         aria-label="Follow on Instagram"
         icon={InstagramIcon}
       />
       <SocialLink
-        href="https://github.com/berdimyradov"
+        href={DB.profile.contacts.gitHub}
         aria-label="Follow on GitHub"
         icon={GitHubIcon}
       />
       <SocialLink
-        href="https://www.linkedin.com/in/berdimyradov/"
+        href={DB.profile.contacts.linkedIn}
         aria-label="Follow on LinkedIn"
         icon={LinkedInIcon}
       />
       <SocialLink
-        href="https://stackoverflow.com/users/7820970/kerim-berdimyradov"
+        href={DB.profile.contacts.stackOverflow}
         aria-label="Follow on StackOverflow"
         icon={StackOverflowIcon}
       />

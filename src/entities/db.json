@@ -1,10 +1,12 @@
 {
   "profile": {
     "name": "Kerim Berdimyradov",
-    "title": "Senior Frontend Engineer & Lead",
+    "jobTitle": "Senior Frontend Engineer & Lead",
+    "title": "Software designer, creator, and amateur actor",
+    "description": "I'm Kerim, an innovative software designer, spirited entrepreneur, and stage enthusiast. Balancing technology with artistry, I craft solutions that empower and inspire. Join my journey of code, creativity, and empowerment!",
     "keywords": ["React", "React Native"],
     "contacts": {
-      "linkedin": "https://linkedin.com/in/berdimyradov",
+      "linkedIn": "https://linkedin.com/in/berdimyradov",
       "email": "kberdimyradov@gmail.com",
       "phone": "+375336168851",
       "telegram": "https://t.me/berdimyradov",

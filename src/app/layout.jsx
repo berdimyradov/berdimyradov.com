@@ -1,16 +1,16 @@
 import { Providers } from "@/app/providers";
+import DB from "@/entities/db.json";
 import { Layout } from "@/shared/components/Layout";
 
 import "@/shared/styles/tailwind.css";
 
 export const metadata = {
   title: {
-    template: "%s - Kerim Berdimyradov",
+    template: `%s - ${DB.profile.name}`,
     default:
-      "Kerim Berdimyradov - Software designer, creator, and amateur actor",
+      `${DB.profile.name} - ${DB.profile.title}`,
   },
-  description:
-    "I'm Kerim, an innovative software designer, spirited entrepreneur, and stage enthusiast. Balancing technology with artistry, I craft solutions that empower and inspire. Join my journey of code, creativity, and empowerment!",
+  description: DB.profile.description,
 };
 
 export default function RootLayout({ children }) {
