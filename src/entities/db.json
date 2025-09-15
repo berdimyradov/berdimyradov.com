@@ -447,7 +447,9 @@
       "projects": [
         {
           "title": "TwinFaces",
-          "url": "https://github.com/alcosi/twinfaces",
+          "urls": {
+            "web": "https://github.com/alcosi/twinfaces"
+          },
           "env": [
             "TypeScript",
             "Next.js",
@@ -467,7 +469,9 @@
         },
         {
           "title": "On Shelves",
-          "url": "https://onshelves.eu/",
+          "urls": {
+            "web": "https://onshelves.eu/"
+          },
           "env": [
             "TypeScript",
             "React",
@@ -657,5 +661,28 @@
         }
       ]
     }
-  }
+  },
+  "education": [
+    {
+      "institution": "Belarusian State University of Informatics and Radioelectronics",
+      "degree": "Master of Engineering Sciences",
+      "location": "Minsk, Belarus",
+      "start": "2015",
+      "end": "2016"
+    },
+    {
+      "institution": "Baranovichi State University",
+      "degree": "Engineer-programmer",
+      "location": "Baranovichi, Belarus",
+      "start": "2010",
+      "end": "2015"
+    },
+    {
+      "institution": "Redwood High School",
+      "degree": "Senior year (exchange student)",
+      "location": "Visalia, California, USA",
+      "start": "2008",
+      "end": "2009"
+    }
+  ]
 }
