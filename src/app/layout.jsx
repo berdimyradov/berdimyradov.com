@@ -9,6 +9,7 @@ export const metadata = {
     default: `${DB.profile.name} - ${DB.profile.title}`,
   },
   description: DB.profile.description,
+  keywords: DB.keywords,
 };
 
 export default function RootLayout({ children }) {

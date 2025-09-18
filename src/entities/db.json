@@ -4,7 +4,6 @@
     "jobTitle": "Senior Frontend Engineer & Lead",
     "title": "Software designer, creator, and amateur actor",
     "description": "I'm Kerim, an innovative software designer, spirited entrepreneur, and stage enthusiast. Balancing technology with artistry, I craft solutions that empower and inspire. Join my journey of code, creativity, and empowerment!",
-    "keywords": ["React", "React Native"],
     "contacts": {
       "linkedIn": "https://linkedin.com/in/berdimyradov",
       "email": "kberdimyradov@gmail.com",
@@ -15,46 +14,17 @@
       "stackOverflow": "https://stackoverflow.com/users/7820970/kerim-berdimyradov"
     }
   },
-  "summary": [
-    "Extensive experience developing cross-platform mobile applications (React Native).",
-    "Excellent knowledge of frontend development (React, Redux, ES2015+, TypeScript, HTML5/CSS3).",
-    "Experience with backend development (Node.js, Express).",
-    "Advanced understanding of OOP concepts and design patterns.",
-    "Strong debugging, analysis, and problem-solving skills.",
-    "Collaborative team player with experience in teams of 2–30 people using varied methodologies.",
-    "Able to contribute in both team and individual development processes.",
-    "Startup launch experience.",
-    "Working knowledge of Linux/Ubuntu (Vim, Nginx).",
-    "DevOps skills (Docker, Jenkins, GitLab/Bitbucket Pipelines, Terraform)."
+  "summaries": [
+    "10+ years building and leading web (React/Next.js) & mobile (React Native) products.",
+    "Architected FSD/monorepo/micro-frontend UIs, shared design systems, and CI/CD for fast, reliable releases.",
+    "Shipped features for payments, marketplaces, and real-time video/VoIP at multi-country scale.",
+    "Lean leadership: roadmaps, PR standards, hiring/mentoring, risk & delivery ownership.",
+    "Performance-minded: bundle cuts, render tuning, form/RTC optimizations, error-rate reduction."
   ],
+  "summary": "Frontend Lead with 10+ years in web & mobile, shipping fintech, marketplace, and RTC products at scale. Specializing in FSD, monorepos, micro-frontends, and CI/CD with a track record of faster releases and lean team leadership.",
   "skills": [
     {
-      "section": "Mobile Technologies",
-      "tools": [
-        {
-          "tool": "React Native",
-          "desc": "A popular framework for building native mobile apps using JavaScript and React."
-        },
-        {
-          "tool": "React Navigation",
-          "desc": "A routing and navigation library for React Native applications."
-        },
-        {
-          "tool": "App Store Connect",
-          "desc": "Apple's platform for managing and distributing iOS applications."
-        },
-        {
-          "tool": "Google Play Console",
-          "desc": "Google's platform for managing and distributing Android applications."
-        },
-        {
-          "tool": "Firebase",
-          "desc": "A comprehensive app development platform by Google, with analytics, databases, messaging, and more."
-        }
-      ]
-    },
-    {
-      "section": "Web Technologies",
+      "section": "Core Frontend",
       "tools": [
         {
           "tool": "TypeScript",
@@ -65,129 +35,78 @@
           "desc": "A JavaScript library for building user interfaces."
         },
         {
-          "tool": "Redux",
+          "tool": "Next.js",
+          "desc": "React framework for SSR, SSG, and full-stack web apps."
+        },
+        {
+          "tool": "React Native",
+          "desc": "A popular framework for building native mobile apps using JavaScript and React."
+        },
+        {
+          "tool": "React Query",
+          "desc": "Data fetching and caching for React apps."
+        },
+        {
+          "tool": "Redux/RTK",
           "desc": "A predictable state container for JavaScript applications."
         },
         {
-          "tool": "Node.js",
-          "desc": "A JavaScript runtime for building scalable network applications."
-        },
-        {
-          "tool": "WebSocket",
-          "desc": "A protocol providing full-duplex communication channels over a single TCP connection."
-        },
-        {
-          "tool": "NPM",
-          "desc": "A package manager for JavaScript, to manage modules and dependencies."
-        },
-        {
-          "tool": "Yarn",
-          "desc": "A fast, reliable, and secure package manager for JavaScript."
-        },
-        {
-          "tool": "Webpack",
-          "desc": "A module bundler used to bundle JavaScript files and additional resources."
+          "tool": "Tailwind/Design Systems",
+          "desc": "Utility-first CSS and scalable UI systems."
         }
       ]
     },
     {
-      "section": "Version Control Systems",
+      "section": "Architecture & Delivery",
       "tools": [
         {
-          "tool": "Git",
-          "desc": "A distributed version control system for tracking changes in source code."
+          "tool": "Monorepos",
+          "desc": "Single repo for multiple projects with shared code."
         },
         {
-          "tool": "SVN",
-          "desc": "Apache Subversion, a centralized version control system."
+          "tool": "Micro Frontends",
+          "desc": "Splitting frontend into independently deployable modules."
         },
         {
-          "tool": "GitFlow",
-          "desc": "A branching model for Git, supporting the parallel development of features."
+          "tool": "Feature Sliced Design",
+          "desc": "Layered architecture for scalable React apps."
         },
         {
-          "tool": "TrunkBased",
-          "desc": "A source-control branching model, where developers work in short-lived branches or directly in trunk."
+          "tool": "CI/CD (GitHub/GitLab/Jenkins)",
+          "desc": "Automated build, test, and deploy pipelines."
+        },
+        {
+          "tool": "Testing (Jest, RTL)",
+          "desc": "Unit and UI testing for reliable components."
+        },
+        {
+          "tool": "Perf/Monitoring (Lighthouse, Sentry)",
+          "desc": "Performance audits and error tracking."
         }
       ]
     },
     {
-      "section": "DBMS",
+      "section": "Platforms & Domains",
       "tools": [
         {
-          "tool": "MySQL",
-          "desc": "An open-source relational database management system."
+          "tool": "Payments/Fintech",
+          "desc": "Payment flows, gateways, and financial apps."
         },
         {
-          "tool": "MongoDB",
-          "desc": "A document-based distributed database designed for modern application development."
+          "tool": "Marketplaces & Catalogs",
+          "desc": "Multi-vendor platforms and product catalogs."
         },
         {
-          "tool": "DataGrip",
-          "desc": "A professional database management tool by JetBrains."
-        }
-      ]
-    },
-    {
-      "section": "IDEs & Editors",
-      "tools": [
-        {
-          "tool": "WebStorm",
-          "desc": "A professional JavaScript IDE by JetBrains, with support for modern frameworks."
+          "tool": "RTC/VoIP & Push",
+          "desc": "Real-time calls, video, and notifications."
         },
         {
-          "tool": "Visual Studio Code",
-          "desc": "A free source-code editor by Microsoft with support for debugging, syntax highlighting, and much more."
+          "tool": "AWS/Azure basics",
+          "desc": "Cloud deployment and service integration."
         },
         {
-          "tool": "NeoVim",
-          "desc": "An extension of Vim, aimed at improving extensibility and adding new features for efficient code editing"
-        }
-      ]
-    },
-    {
-      "section": "Software development methodologies",
-      "tools": [
-        {
-          "tool": "Jira",
-          "desc": "An agile project management tool supporting any agile methodology."
-        },
-        {
-          "tool": "Confluence",
-          "desc": "A collaboration tool for team collaboration and documentation."
-        },
-        {
-          "tool": "Trello",
-          "desc": "A Kanban-style project management app."
-        },
-        {
-          "tool": "Waterfall",
-          "desc": "A traditional sequential project management methodology."
-        },
-        {
-          "tool": "Agile",
-          "desc": "A methodology emphasizing iterative progress and collaboration."
-        },
-        {
-          "tool": "Kanban",
-          "desc": "A visual workflow management method."
-        },
-        {
-          "tool": "Scrum",
-          "desc": "An agile methodology for incremental and iterative project work."
-        }
-      ]
-    },
-    {
-      "section": "Other tools",
-      "tools": [
-        {
-          "tool": "Slack",
-          "desc": "A collaboration hub for teamwork, with channels, private groups, and direct messaging."
-        },
-        {
-          "tool": "Figma",
-          "desc": "A cloud-based design tool for collaborative interface design."
+          "tool": "Docker (working knowledge)",
+          "desc": "Containerization for development and CI/CD."
         }
       ]
     }
@@ -684,5 +603,104 @@
       "start": "2008",
       "end": "2009"
     }
+  ],
+  "keywords": [
+    "TypeScript",
+    "JavaScript",
+    "ES6",
+    "ES2015+",
+    "React",
+    "React.js",
+    "React Native",
+    "ReactNative",
+    "Next.js",
+    "Redux",
+    "Redux Toolkit",
+    "RTK",
+    "React Query",
+    "React Testing Library",
+    "RTL",
+    "Tailwind",
+    "TailwindCSS",
+    "Design Systems",
+    "CSS-in-JS",
+    "Monorepo",
+    "Monorepos",
+    "Micro Frontend",
+    "Micro Frontends",
+    "Feature Sliced Design",
+    "FSD",
+    "CI/CD",
+    "Continuous Integration",
+    "Continuous Delivery",
+    "GitHub Actions",
+    "GitLab CI",
+    "GitLab Pipelines",
+    "Jenkins",
+    "Docker",
+    "Terraform",
+    "AWS",
+    "Amazon Web Services",
+    "Azure",
+    "Cloud",
+    "Linux",
+    "Ubuntu",
+    "Node.js",
+    "Express",
+    "Serverless",
+    "WebSocket",
+    "REST API",
+    "GraphQL",
+    "Payments",
+    "Payment Gateway",
+    "Fintech",
+    "Financial Services",
+    "E-commerce",
+    "Marketplaces",
+    "Catalog Management",
+    "Real-Time Communication",
+    "RTC",
+    "VoIP",
+    "Video Calls",
+    "Push Notifications",
+    "iOS",
+    "Android",
+    "App Store",
+    "Google Play",
+    "Mobile Apps",
+    "Cross-platform",
+    "Agile",
+    "Scrum",
+    "Kanban",
+    "Waterfall",
+    "Team Lead",
+    "Mentoring",
+    "Architecture",
+    "Design System",
+    "Testing",
+    "Unit Testing",
+    "Integration Testing",
+    "End-to-End Testing",
+    "Jest",
+    "Sentry",
+    "Monitoring",
+    "Lighthouse",
+    "Performance Optimization",
+    "Nginx",
+    "DevOps",
+    "Git",
+    "GitFlow",
+    "Trunk Based Development",
+    "SVN",
+    "Bitbucket Pipelines",
+    "Vim",
+    "NeoVim",
+    "Visual Studio Code",
+    "WebStorm",
+    "Figma",
+    "Slack",
+    "Jira",
+    "Confluence",
+    "Trello"
   ]
 }
