@@ -1,4 +1,5 @@
 import DB from "@/entities/db.json";
+import { MailIcon } from "@/shared/components/Icons";
 import {
   GitHubIcon,
   InstagramIcon,
@@ -20,6 +21,26 @@ export const SocialLinks = () => {
   return (
     <div className="mt-6 flex gap-6">
       <SocialLink
+        href={`mailto:${DB.profile.contacts.email}`}
+        aria-label="Contact via email"
+        icon={MailIcon}
+      />
+      <SocialLink
+        href={DB.profile.contacts.linkedIn}
+        aria-label="Follow on LinkedIn"
+        icon={LinkedInIcon}
+      />
+      <SocialLink
+        href={DB.profile.contacts.gitHub}
+        aria-label="Follow on GitHub"
+        icon={GitHubIcon}
+      />
+      <SocialLink
+        href={DB.profile.contacts.stackOverflow}
+        aria-label="Follow on StackOverflow"
+        icon={StackOverflowIcon}
+      />
+      <SocialLink
         href={DB.profile.contacts.telegram}
         aria-label="Reach out on Telegram"
         icon={TelegramIcon}
@@ -28,21 +49,6 @@ export const SocialLinks = () => {
         href={DB.profile.contacts.instagram}
         aria-label="Follow on Instagram"
         icon={InstagramIcon}
-      />
-      <SocialLink
-        href={DB.profile.contacts.gitHub}
-        aria-label="Follow on GitHub"
-        icon={GitHubIcon}
-      />
-      <SocialLink
-        href={DB.profile.contacts.linkedIn}
-        aria-label="Follow on LinkedIn"
-        icon={LinkedInIcon}
-      />
-      <SocialLink
-        href={DB.profile.contacts.stackOverflow}
-        aria-label="Follow on StackOverflow"
-        icon={StackOverflowIcon}
       />
     </div>
   );
