@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Canterbury";
+  /* src: url("./Canterbury.ttf"); */
+  src: url("/public/PlaywriteES.ttf");
+}
+
+.cv-container {
+  margin: auto;
+}
+
+.paper {
+  /* width: 2480px;
+  height: 3508px; */
+  width: 595px;
+  height: 842px;
+
+  background-color: #f5d6ab;
+  background-image: url("/paper.jpeg");
+  background-size: 595px 842px;
+
+  padding: 15px 30px;
+}
+
+.paper header h1 {
+  color: black;
+  /* font-family: "Caterbury"; */
+}
